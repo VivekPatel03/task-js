@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: url(/images/free-photo-of-rooftop-sunset.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+#yatra {
+  height: 85px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav .join {
+  background-color: rgb(39, 39, 39);
+  height: 40px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+.nav .join img {
+  height: 40px;
+}
+.nav .join #prime {
+  color: rgb(246, 203, 11);
+}
+.nav .join span {
+  background-color: rgb(246, 203, 11);
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav #content {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.nav #content .call {
+  background-color: 0;
+}
+.nav #content .login {
+  text-decoration: none;
+  background-color: 0;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
